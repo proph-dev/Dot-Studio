@@ -1,11 +1,14 @@
 <template>
-    <nuxt-link to="/">{{ content }}</nuxt-link>
+    <nuxt-link :to="url">{{ content }}</nuxt-link>
 </template>
 
 <script>
 export default {
     props: {
         content: {
+            type: String
+        },
+        url: {
             type: String
         }
     }   

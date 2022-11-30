@@ -29,6 +29,6 @@ export default {
 
 <style scoped>
   #hero { 
-    @apply flex items-center pl-10 h-screen;
+    @apply flex items-center px-10 lg:pl-10 lg:pr-0 pt-8 lg:pt-0 h-max lg:h-screen;
   }
 </style>
