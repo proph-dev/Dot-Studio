@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'DotStudio',
+    title: 'DOT.Studio',
     htmlAttrs: {
       lang: 'fr'
     },
@@ -55,8 +55,8 @@ export default {
     overwriting: false,
     inject: true,
     families: {
-        Nunito: {
-            wght: [400, 600, 700, 900]
+        Poppins: {
+            wght: [400, 500, 600, 700, 800]
         },
     }
   },
