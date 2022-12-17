@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navbar class="lg:fixed top-0 left-0 w-full bg-white"/>
+        <Navbar class="lg:sticky z-10 top-0 left-0 w-full bg-white"/>
         
         <nuxt/>
     </div>
@@ -22,24 +22,34 @@
         font-family: 'Poppins';
     }
 
-    /*** H1 ***/
-    /* Main Title */
+
+    /*** Typo ***/
+    /* H1 */
     h1.main-title {
         @apply font-bold text-5xl lg:text-7xl;
     }
 
-    /*** Paragraphs ***/
-    p {
-        @apply text-zinc-500;
+    /* H2 */
+    h2 {
+        @apply font-bold text-3xl lg:text-5xl;
     }
 
-    /*** Buttons ***/
-    /* CTA Button */
-    .cta-button {
-        @apply text-xl font-medium text-white bg-cyan-500 rounded-xl px-8 py-4 duration-300 ease-in-out hover:bg-cyan-400;
+    h2 span {
+        @apply block text-cyan-500 mt-2;
     }
 
-    .cta-secondButton {
-        @apply text-xl font-medium text-cyan-500 bg-cyan-100 rounded-xl px-8 py-4 duration-300 ease-in-out hover:bg-cyan-200;
+    h2.white {
+        @apply text-white;
+    }
+
+    h2.white span {
+        @apply inline text-cyan-300;
+    }
+
+
+    /*** Carousel ***/
+    .slick-track {
+        display: flex !important;
+        align-items: center;
     }
 </style>

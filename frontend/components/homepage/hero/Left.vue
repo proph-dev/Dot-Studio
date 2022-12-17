@@ -1,13 +1,29 @@
 <template>
   <div>
-    <h1 class="main-title">Votre studio, présent <span class="text-cyan-500">pour vous</span></h1>
-    <p class="mt-12 text-lg lg:text-xl leading-8">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ea, voluptas nam ratione necessitatibus quas corrupti tempore perspiciatis dolor, 
-        voluptate expedita est quisquam fuga cum ipsam blanditiis pariatur doloremque? Maxime!
-    </p>
+    <h1 class="main-title">Your life, <span class="text-cyan-500">Your création</span></h1>
+    <Paragraph 
+        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ea, voluptas nam ratione necessitatibus quas corrupti tempore perspiciatis dolor, 
+        voluptate expedita est quisquam fuga cum ipsam blanditiis pariatur doloremque ?" 
+        class="mt-12 text-lg lg:text-xl leading-8" 
+    />
+
     <div class="mt-12 flex flex-col sm:flex-row w-max">
-        <nuxt-link to="" class="cta-button mb-4 sm:mr-4 sm:mb-0">Nous contacter</nuxt-link>
-        <nuxt-link to="" class="cta-secondButton">En savoir plus</nuxt-link>
+        <CtaButton url="" content="Nous contacter" class="mb-4 sm:mr-4 sm:mb-0" />
+        <CtaSecondButton url="" content="En savoir plus"/>
     </div>
   </div>
 </template>
+
+<script>
+    import Paragraph from '~/components/utils/Paragraph.vue';
+    import CtaButton from '~/components/utils/CtaButton.vue';
+    import CtaSecondButton from '~/components/utils/CtaSecondButton.vue';
+
+    export default {
+        components: {
+            Paragraph,
+            CtaButton,
+            CtaSecondButton
+        }
+    }
+</script>

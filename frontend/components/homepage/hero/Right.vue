@@ -1,18 +1,11 @@
 <template>
   <div>
-    <img src="../../../assets/img/dot-studio-hero.svg" alt="Icône DOT.Studio">
+    <img src="../../../assets/img/dot-studio-hero.svg" alt="Icône DOT.Studio" class="w-[40rem] max-[1356px]:w-[28rem]">
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
   img {
-    width: 40rem;
     animation: icon-animation 2s infinite alternate;
   }
 

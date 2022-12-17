@@ -9,16 +9,18 @@
         </div>
       </div>
 
-      <nuxt-link to="" class="text-xl font-medium text-white bg-cyan-500 rounded-lg px-6 py-2 duration-300 ease-in-out hover:bg-cyan-400">Nous contacter</nuxt-link>
+      <CtaButton url="" content="Nous contacter" class="px-6 py-2" />
     </nav>
 </template>
 
 <script>
     import Tabs from '~/components/navbar/Tabs.vue';
+    import CtaButton from '~/components/utils/CtaButton.vue';
 
     export default {
         components: {
-            Tabs
+            Tabs,
+            CtaButton
         },
         data() {
         return {
