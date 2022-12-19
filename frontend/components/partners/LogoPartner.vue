@@ -1,6 +1,6 @@
 <template>
     <a :href="url" target="_blank" rel="noopener noreferrer nofollow" class="logo">
-        <img :src="`/_nuxt/assets/img/partners-logo/${img}`" class="w-[200px]">
+        <img :src="require(`~/assets/img/partners-logo/${img}`)" class="w-[200px]">
     </a>
 </template>
 
