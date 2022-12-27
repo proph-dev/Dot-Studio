@@ -9,8 +9,11 @@
                 />
             </div>
 
-            <div class="w-1/2 flex justify-center">
-                <img src="../../assets/img/temp-img.png" alt="Image temporaire" class="w-[500px]">
+            <div class="w-1/2 flex justify-center relative">
+                <!-- Desktop visual -->
+                <DesktopAnimation />
+                <!-- Mobile visual -->
+                <MobileAnimation />
             </div>
         </div>
     </section>
@@ -18,10 +21,14 @@
 
 <script>
     import Paragraph from '~/components/utils/Paragraph.vue';
+    import DesktopAnimation from '~/components/section-demi/DesktopAnimation.vue';
+    import MobileAnimation from '~/components/section-demi/MobileAnimation.vue';
 
     export default {
         components: {
-            Paragraph
+            Paragraph,
+            DesktopAnimation,
+            MobileAnimation
         }
     }
 </script>

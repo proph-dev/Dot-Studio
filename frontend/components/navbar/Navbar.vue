@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <CtaButton url="" content="Nous contacter" class="px-6 py-2" />
+      <CtaButton url="" content="Nous contacter" class="px-6 py-[12px] text-lg" />
     </nav>
 </template>
 

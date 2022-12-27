@@ -9,27 +9,23 @@
   <!-- Page content -->
   <main>
     <!-- Pourquoi nous ? -->
-    <TextDemi class="color-section" />
+    <TextDemi class="bg-[#F2F1ED]" />
 
     <!-- Articles -->
     <Articles class="bg-cyan-900" />
 
     <!-- Ils nous font confiance -->
-    <Partners class="color-section" />
+    <Partners class="bg-[#F2F1ED]" />
   </main>
-
-  <!-- Footer -->
-  <Footer />
 </div>
 
 </template>
 
 <script>
-import Hero from '~/components/homepage/hero/Hero.vue';
+import Hero from '~/components/hero/homepage/Hero.vue';
 import TextDemi from '~/components/section-demi/TextDemi.vue';
 import Articles from '~/components/blog/Articles.vue';
 import Partners from '~/components/partners/Partners.vue';
-import Footer from '~/components/footer/Footer.vue';
 
 export default {
   name: 'Homepage',
@@ -37,14 +33,7 @@ export default {
     Hero,
     TextDemi,
     Articles,
-    Partners,
-    Footer
+    Partners
   }
 }
 </script>
-
-<style scoped>
-  .color-section {
-    background-color: #F2F1ED;
-  }
-</style>

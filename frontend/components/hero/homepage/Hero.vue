@@ -6,8 +6,8 @@
 </template>
 
 <script>
-    import Left from '~/components/homepage/hero/Left.vue';
-    import Right from '~/components/homepage/hero/Right.vue';
+    import Left from '~/components/hero/homepage/Left.vue';
+    import Right from '~/components/hero/homepage/Right.vue';
 
     export default {
         components: {

@@ -3,15 +3,19 @@
         <Navbar class="lg:sticky z-10 top-0 left-0 w-full bg-white"/>
         
         <nuxt/>
+
+        <Footer />
     </div>
 </template>
 
 <script>
     import Navbar from '~/components/navbar/Navbar.vue';
+    import Footer from '~/components/footer/Footer.vue';
 
     export default {
         components: {
-            Navbar
+            Navbar,
+            Footer
         }
     }
 </script>
