@@ -17,11 +17,11 @@
     import CtaButton from '~/components/utils/CtaButton.vue';
 
     export default {
-        components: {
-            Cards,
-            CtaButton
-        },
-        data() {
+      components: {
+          Cards,
+          CtaButton
+      },
+      data() {
         return {
           cards: [
             {
