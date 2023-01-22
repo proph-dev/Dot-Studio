@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="flex justify-center border-t-[1px] border-t-gray-400 mt-16 py-8 text-sm">
-            <span class="text-white">© DOT.Studio - Tous Droits Réservés | Site internet par <a href="" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">Prophecy</a></span>
+            <span class="text-white">© DOT.Studio - Tous Droits Réservés | Site internet par <a href="https://pr0ph.com" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:underline">Proph</a></span>
         </div>
     </footer>
 </template>

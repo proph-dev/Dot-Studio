@@ -1,22 +1,28 @@
 <template>
   <div>
-    <img src="../../../assets/img/dot-studio-hero.svg" alt="Icône DOT.Studio" class="w-[40rem] max-[1356px]:w-[28rem]">
+    <lottie :options="lottieOptions" v-on:animCreated="handleAnimation" />
   </div>
 </template>
 
-<style scoped>
-  img {
-    animation: icon-animation 2s infinite alternate;
-  }
+<script>
+import animationData from '../../../assets/animations/hero.json';
 
-  @keyframes icon-animation {
-    from {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-    to {
-        -webkit-transform: translate(1%, -1%);
-        transform: translate(1%, -1%);
+export default {
+  components: {
+    lottie: require('vue-lottie/src/lottie.vue').default
+  },
+  data() {
+    return {
+      anim: {
+        animationData: null
+      },
+      lottieOptions: { animationData }
+    };
+  },
+  methods: {
+    handleAnimation: function (anim) {
+      this.anim = anim;
     }
   }
-</style>
+}
+</script>
