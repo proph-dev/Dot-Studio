@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "blog-1.webp",
+        "date": "22 janvier 2023",
+        "author": "Marco Lepoint",
+        "title": "Titre de l'article 1",
+        "intro": "Introduction",
+        "firstTitle": "Premier titre",
+        "firstContent": "Premier contenu",
+        "secondTitle": "Second titre",
+        "secondContent": "Second contenu"
+    },
+    {
+        "id": 2,
+        "img": "blog-1.webp",
+        "date": "22 janvier 2023",
+        "author": "Lepoint",
+        "title": "Titre de l'article 2",
+        "intro": "Introduction",
+        "firstTitle": "Premier titre",
+        "firstContent": "Premier contenu",
+        "secondTitle": "Second titre",
+        "secondContent": "Second contenu"
+    },
+    {
+        "id": 3,
+        "img": "blog-1.webp",
+        "date": "22 janvier 2023",
+        "author": "Marco",
+        "title": "Titre de l'article 3",
+        "intro": "Introduction",
+        "firstTitle": "Premier titre",
+        "firstContent": "Premier contenu",
+        "secondTitle": "Second titre",
+        "secondContent": "Second contenu"
+    },
+    {
+        "id": 4,
+        "img": "blog-1.webp",
+        "date": "22 janvier 2023",
+        "author": "Marco",
+        "title": "Titre de l'article 4",
+        "intro": "Introduction",
+        "firstTitle": "Premier titre",
+        "firstContent": "Premier contenu",
+        "secondTitle": "Second titre",
+        "secondContent": "Second contenu"
+    }
+]

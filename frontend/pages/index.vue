@@ -12,7 +12,7 @@
     <TextDemi class="bg-[#F2F1ED]" />
 
     <!-- Articles -->
-    <Articles class="bg-cyan-900" />
+    <HomeArticles class="bg-cyan-900" />
 
     <!-- Ils nous font confiance -->
     <Partners class="bg-[#F2F1ED]" />
@@ -24,7 +24,7 @@
 <script>
 import Hero from '~/components/hero/homepage/Hero.vue';
 import TextDemi from '~/components/section-demi/TextDemi.vue';
-import Articles from '~/components/blog/Articles.vue';
+import HomeArticles from '~/components/blog/HomeArticles.vue';
 import Partners from '~/components/partners/Partners.vue';
 
 export default {
@@ -32,7 +32,7 @@ export default {
   components: {
     Hero,
     TextDemi,
-    Articles,
+    HomeArticles,
     Partners
   }
 }

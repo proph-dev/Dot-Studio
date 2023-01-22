@@ -5,7 +5,6 @@
                 <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mx-auto w-full">
                     <Cards v-for="card in cards" v-bind:key="card.id" :img="card.img" :title="card.title" :description="card.description" />
                 </div>
-                <CtaButton url="" content="Voir plus d'articles" class="w-msx mt-12 mx-auto" />
             </div>
         </div>
     </section>

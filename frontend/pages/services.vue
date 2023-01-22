@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <BannerHero class="bg-cyan-900" />
+      <ServicesHero class="bg-cyan-900" />
     </header>
 
     <main>
@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import BannerHero from '~/components/hero/others-pages/BannerHero.vue';
+import ServicesHero from '~/components/hero/others-pages/ServicesHero.vue';
 import Services from '~/components/services/Services.vue';
 
 export default {
   components: {
-    BannerHero,
+    ServicesHero,
     Services
   }
 }

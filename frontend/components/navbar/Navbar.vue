@@ -33,12 +33,17 @@
             {
               id: 2,
               content: "Services",
-              url: "services"
+              url: "/services"
             },
             {
               id: 3,
               content: "Portfolio",
-              url: ""
+              url: "/portfolio"
+            },
+            {
+              id: 4,
+              content: "Blog",
+              url: "/blog"
             }
           ]
         }
