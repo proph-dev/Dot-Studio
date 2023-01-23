@@ -5,7 +5,7 @@
           <img src="../../assets/img/logo-dot-studio.svg" alt="Logo de DOT.Studio" class="w-36">
         </nuxt-link>
         <div class="flex w-full">
-            <Tabs v-for="tab in tabs" v-bind:key="tab.id" :content="tab.content" :url="tab.url" class="flex items-center text-xl text-zinc-500 mx-4 first:ml-8"/>
+            <Tabs v-for="tab in tabs" v-bind:key="tab.id" :content="tab.content" :url="tab.url" class="flex items-center text-xl text-black hover:text-zinc-600 mx-4 first:ml-8"/>
         </div>
       </div>
 

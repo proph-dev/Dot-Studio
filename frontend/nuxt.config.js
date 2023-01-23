@@ -67,16 +67,6 @@ export default {
     baseURL: '/',
   },
 
-  router: {
-    extendRoutes (routes, resolve) {
-      routes.push({
-          name: 'articles-id',
-          path: '/articles/:id',
-          component: resolve(__dirname, 'pages/articles/_id.vue')
-      })
-    }
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {

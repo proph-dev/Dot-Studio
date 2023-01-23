@@ -12,6 +12,6 @@ export default {
 
 <style scoped>
 p {
-    @apply text-zinc-500;
+    @apply text-zinc-600;
 }
 </style>

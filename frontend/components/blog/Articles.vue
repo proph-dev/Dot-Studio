@@ -4,7 +4,7 @@
             <div class=" flex flex-col align-center">
                 <h2 class="mb-8 text-center text-cyan-900">Découvrez <span>nos articles</span></h2>
                 <div class="grid grid-cols-4 gap-8 mx-auto w-full">
-                    <Cards v-for="article in articles" v-bind:key="article.id" :id="article.id" :img="article.img" :date="article.date" :title="article.title" :intro="article.intro"/>
+                    <Cards v-for="article in articles" v-bind:key="article.id" :img="article.img" :date="article.date" :title="article.title" :intro="article.intro"/>
                 </div>
             </div>
         </div>
