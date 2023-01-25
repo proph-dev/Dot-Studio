@@ -1,6 +1,6 @@
 <template>
     <section class="py-28">
-        <div class="container mx-auto">
+        <div class="w-[90vw] mx-auto">
             <h2 class="mb-8 text-center">Ils nous ont fait confiance</h2>
             <VueSlickCarousel v-bind="settings">
                 <Logo v-for="partner in partners" v-bind:key="partner.id" :img="partner.img" :url="partner.url" />
@@ -31,6 +31,14 @@
                 "autoplay": true,
                 "speed": 5000,
                 "autoplaySpeed":4000,
+                "responsive": [
+                  {
+                    "breakpoint": 768,
+                    "settings": {
+                      "slidesToShow": 1
+                    }
+                  }
+                ]
             },
             partners: [
             {

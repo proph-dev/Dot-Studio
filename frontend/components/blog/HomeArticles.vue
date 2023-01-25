@@ -1,9 +1,9 @@
 <template>
     <section class="py-28">
-        <div class="container mx-auto">
+        <div class="w-[90vw] mx-auto">
             <div class=" flex flex-col align-center">
                 <h2 class="mb-8 text-center white">Découvrez <span>nos articles</span></h2>
-                <div class="grid grid-cols-3 gap-12 mx-auto w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mx-auto w-full">
                     <Cards v-for="card in cards" v-bind:key="card.id" :img="card.img" :date="card.date" :title="card.title" :intro="card.intro" :url="card.url"/>
                 </div>
                 <CtaButton url="/blog" content="Voir plus d'articles" class="w-msx mt-12 mx-auto" />

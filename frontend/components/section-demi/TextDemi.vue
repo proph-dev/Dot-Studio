@@ -1,19 +1,19 @@
 <template>
     <section class="py-28">
-        <div class="container mx-auto flex items-center">
-            <div class="w-1/2">
-                <h2 class="mb-8">Rendez votre projet unique <span>grâce à nos designs</span></h2>
+        <div class="w-[90vw] mx-auto flex flex-col xl:flex-row items-center">
+            <div class="w-full xl:w-1/2">
+                <h2 class="mb-8 text-center xl:text-left">Rendez votre projet unique <span>grâce à nos designs</span></h2>
                 <Paragraph 
                     content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ea, voluptas nam ratione necessitatibus quas corrupti tempore perspiciatis dolor, voluptate expedita est quisquam fuga cum ipsam blanditiis pariatur doloremque ?"
-                    class="text-[1.2rem] w-3/4"
+                    class="text-[1.2rem] w-full text-center xl:text-left xl:w-3/4"
                 />
             </div>
 
-            <div class="w-1/2 flex justify-center relative">
+            <div class="w-full xl:w-1/2 flex justify-center relative">
                 <!-- Desktop visual -->
-                <DesktopAnimation />
+                <DesktopAnimation class="hidden md:block" />
                 <!-- Mobile visual -->
-                <MobileAnimation />
+                <MobileAnimation class="relative md:absolute" />
             </div>
         </div>
     </section>

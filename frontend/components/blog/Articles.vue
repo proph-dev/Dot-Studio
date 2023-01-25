@@ -1,9 +1,9 @@
 <template>
     <section class="py-28">
-        <div class="container mx-auto">
-            <div class=" flex flex-col align-center">
+        <div class="w-[90vw] mx-auto">
+            <div class="flex flex-col align-center">
                 <h2 class="mb-8 text-center text-cyan-900">Découvrez <span>nos articles</span></h2>
-                <div class="grid grid-cols-4 gap-8 mx-auto w-full">
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mx-auto w-full">
                     <Cards v-for="article in articles" v-bind:key="article.id" :img="article.img" :date="article.date" :title="article.title" :intro="article.intro"/>
                 </div>
             </div>

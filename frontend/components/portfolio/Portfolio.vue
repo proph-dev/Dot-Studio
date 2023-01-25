@@ -1,8 +1,8 @@
 <template>
     <section class="py-28">
-        <div class="container mx-auto">
+        <div class="w-[90vw] mx-auto">
             <div class="flex flex-col align-center">
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mx-auto w-full">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto w-full">
                     <Cards v-for="card in cards" v-bind:key="card.id" :img="card.img" :date="card.date" :title="card.title" :description="card.description" :url="card.url" :hasUrl="card.hasUrl" />
                 </div>
             </div>

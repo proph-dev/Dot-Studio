@@ -1,5 +1,5 @@
 <template>
-<div class="absolute -bottom-20 left-0 mobile w-[250px]">
+<div class="-bottom-20 left-0 mobile w-[250px]">
     <div class="relative">
         <img src="../../assets/img/window-tel.png" alt="Telephone">
         <div class="component-mobile absolute top-20 left-[22px] w-[175px] h-[175px]">
