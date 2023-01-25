@@ -1,7 +1,11 @@
 <template>
-    <div class="py-8 w-[80vw] mx-auto">
+    <div class="relative py-12 w-[80vw] mx-auto">
         <main v-if="article">
             <div class="flex flex-col items-center mb-16">
+                <div class="ariane flex absolute left-0 top-0">
+                    <nuxt-link to="/blog" class="relative mr-6 font-semibold hover:underline" >Blog</nuxt-link>
+                    <span>{{ article.title }}</span>
+                </div>
                 <span class="text-zinc-400 mb-2 text-sm text-center">Publie le {{ article.date }} par {{ article.author }}</span>
                 <h1 class="text-center text-5xl font-bold mb-4">{{ article.title }}</h1>
                 <Paragraph :content=article.intro class="text-center text-xl lg:w-2/3 mb-8" />
@@ -57,11 +61,20 @@ export default {
         },
         secondContent() {
             return this.article ? this.article.secondContent : ''
-        },
+        }
     }
 }
 </script>
 
-<style>
-
+<style scoped>
+.ariane a::after {
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: 50%;
+    transform: translateY(-50%) rotate(25deg);
+    background-color: #000;
+    width: 2px;
+    height: 15px;
+}
 </style>
