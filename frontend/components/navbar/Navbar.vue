@@ -8,7 +8,7 @@
         <div class="flex justify-between">
           <Tabs v-for="tab in tabs" v-bind:key="tab.id" :content="tab.content" :url="tab.url" class="text-xl text-black hover:text-zinc-600 mx-4 first:ml-8"/>
         </div>
-        <CtaButton url="" content="Nous contacter" class="px-6 py-[12px] text-lg" />
+        <CtaButton url="/contact" content="Nous contacter" class="px-6 py-[12px] text-lg" />
       </div>
 
       <!-- Mobile -->
@@ -17,7 +17,7 @@
           <Tabs v-for="tab in tabs" v-bind:key="tab.id" :content="tab.content" :url="tab.url" class="text-xl text-black font-medium hover:text-zinc-600 mb-8 last:mb-0"/>
         </div>
         <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-lg">
-          <CtaButton url="" content="Nous contacter" />
+          <CtaButton url="/contact" content="Nous contacter" />
         </div>
       </div>
 
