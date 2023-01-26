@@ -16,7 +16,7 @@
         <div class="flex flex-col text-center h-full">
           <Tabs v-for="tab in tabs" v-bind:key="tab.id" :content="tab.content" :url="tab.url" class="text-xl text-black font-medium hover:text-zinc-600 mb-8 last:mb-0"/>
         </div>
-        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-lg">
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 w-full sm:w-max flex justify-center">
           <CtaButton url="/contact" content="Nous contacter" />
         </div>
       </div>

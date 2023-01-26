@@ -1,8 +1,5 @@
 <template>
   <div>
-    <header>
-    </header>
-
     <main>
       <Contact class="bg-slate-100" />
     </main>
