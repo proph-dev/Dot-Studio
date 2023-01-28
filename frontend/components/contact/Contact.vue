@@ -4,22 +4,19 @@
             <MainTitle content="Nous contactez" class="text-center mb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300" />
             <h2 class="text-base font-medium text-center mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga corrupti dicta obcaecati. Est, magnam excepturi reiciendis.</h2>       
             
-            <form class="flex flex-col">
+            <form class="flex flex-col" :action="formAction" method="POST" >
                 <label for="email" class="mb-2">Adresse email <span class="text-red-500">*</span></label>
                 <input type="email" name="email" id="email" placeholder="Saisissez votre adresse e-mail" required>
 
-                <label for="tel" class="mt-4 mb-2">Numéro de téléphone <span class="italic text-sm">(optionnel)</span></label>
-                <input type="tel" name="tel" id="tel" placeholder="Saisissez votre numéro de téléphone">
-
                 <div class="flex mt-4">
                     <div>
-                        <label for="firstName" class="mt-4 mb-2">Prénom <span class="italic text-sm">(optionnel)</span></label>
-                        <input type="text" name="firstName" id="firstName" placeholder="Saisissez votre prénom">
+                        <label for="firstName" class="mt-4 mb-2">Prénom <span class="text-red-500">*</span></label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Saisissez votre prénom" required>
                     </div>
 
                     <div>
-                        <label for="lastName" class="mt-4 mb-2">Nom <span class="italic text-sm">(optionnel)</span></label>
-                        <input type="text" name="lastName" id="lastName" placeholder="Saisissez votre nom">
+                        <label for="lastName" class="mt-4 mb-2">Nom <span class="text-red-500">*</span></label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Saisissez votre nom" required>
                     </div>
                 </div>
 
@@ -41,6 +38,11 @@ import MainTitle from '../utils/MainTitle.vue';
 export default {
     components: {
         MainTitle
+    },
+    data() {
+        return {
+            formAction: process.env.FORM_ACTION
+        }
     }
 }
 </script>
