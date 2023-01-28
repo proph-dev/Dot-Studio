@@ -2,8 +2,8 @@
   <div>
     <h1 class="main-title">Your life, <span class="text-cyan-500">Your création</span></h1>
     <Paragraph 
-        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ea, voluptas nam ratione necessitatibus quas corrupti tempore perspiciatis dolor, 
-        voluptate expedita est quisquam fuga cum ipsam blanditiis pariatur doloremque ?" 
+        content="Dot Studio est une entreprise de graphisme qui propose des services professionnels pour
+        donner vie à vos projets créatifs, tels que la conception de logo, identité visuelle, brochures, affiches, packaging etc." 
         class="mt-12 text-lg lg:text-xl leading-8" 
     />
 

@@ -4,7 +4,7 @@
             <div class="w-full xl:w-1/2">
                 <h2 class="mb-8 text-center xl:text-left">Rendez votre projet unique <span>grâce à nos designs</span></h2>
                 <Paragraph 
-                    content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ea, voluptas nam ratione necessitatibus quas corrupti tempore perspiciatis dolor, voluptate expedita est quisquam fuga cum ipsam blanditiis pariatur doloremque ?"
+                    content="Donnez vie à vos idées avec notre agence de design. Nous créons des designs uniques pour vous aider à mettre en valeur votre projet. Faites confiance à notre expertise pour rendre ce dernier exceptionnel."
                     class="text-[1.2rem] w-full text-center xl:text-left xl:w-3/4"
                 />
             </div>

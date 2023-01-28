@@ -36,6 +36,7 @@
     /* H2 */
     h2 {
         @apply font-bold text-3xl lg:text-5xl;
+        line-height: 3.5rem !important;
     }
 
     h2 span {

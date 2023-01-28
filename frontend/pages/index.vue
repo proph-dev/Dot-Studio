@@ -11,6 +11,9 @@
     <!-- Pourquoi nous ? -->
     <TextDemi class="bg-[#F2F1ED]" />
 
+    <!-- CTA Section -->
+    <CtaSection />
+
     <!-- Articles -->
     <HomeArticles class="bg-cyan-900" />
 
@@ -26,12 +29,14 @@ import Hero from '~/components/hero/homepage/Hero.vue';
 import TextDemi from '~/components/section-demi/TextDemi.vue';
 import HomeArticles from '~/components/blog/HomeArticles.vue';
 import Partners from '~/components/partners/Partners.vue';
+import CtaSection from '~/components/utils/CtaSection.vue';
 
 export default {
   name: 'Homepage',
   components: {
     Hero,
     TextDemi,
+    CtaSection,
     HomeArticles,
     Partners
   }

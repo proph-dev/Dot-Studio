@@ -61,6 +61,6 @@
 }
 
 nav a {
-    @apply mt-1;
+    @apply mt-1 hover:underline;
 }
 </style>

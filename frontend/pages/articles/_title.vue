@@ -9,7 +9,7 @@
                 <span class="text-zinc-400 mb-2 text-sm text-center">Publie le {{ article.date }} par {{ article.author }}</span>
                 <h1 class="text-center text-5xl font-bold mb-4">{{ article.title }}</h1>
                 <Paragraph :content=article.intro class="text-center text-xl lg:w-2/3 mb-8" />
-                <img :src="require(`~/assets/img/blog/${article.img}`)" :alt="title" class="w-[90%] h-[600px] object-cover" >
+                <img :src="require(`~/assets/img/blog/${article.img}`)" :alt="title" class="w-[90%] h-[600px] object-cover rounded-lg" >
             </div>
             <div class="w-[90%] mx-auto">
                 <h2 class="text-4xl mb-4">{{ article.firstTitle }}</h2>

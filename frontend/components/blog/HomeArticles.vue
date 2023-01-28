@@ -28,9 +28,9 @@
               id: 1,
               img: "blog-2.jpg",
               date: "22 janvier 2023",
-              title: "Titre de l'article 1",
-              intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-              url: "/articles/titre-de-l'article-1"
+              title: "Nous arrivons sur la toile !",
+              intro: "Nous tenons à remercier Proph pour la création de notre nouveau site web, beaucoup d'efforts on été réalisé pour rendre se site web unique.",
+              url: "/articles/nous-arrivons-sur-la-toile-!"
             },
             {
               id: 2,
