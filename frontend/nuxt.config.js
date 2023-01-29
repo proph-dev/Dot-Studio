@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Site de DotStudio' },
+      { hid: 'description', name: 'description', content: 'Découvrez les créations uniques de DOT Studio, votre solution de graphisme et de design. Profitez de notre expertise pour donner vie à vos projets et mettre en avant votre entreprise.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

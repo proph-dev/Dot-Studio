@@ -26,7 +26,7 @@
           cards: [
             {
               id: 1,
-              img: "blog-2.jpg",
+              img: "notre-arrivee-sur-la-toile.jpg",
               date: "22 janvier 2023",
               title: "Nous arrivons sur la toile !",
               intro: "Nous tenons à remercier Proph pour la création de notre nouveau site web, beaucoup d'efforts on été réalisé pour rendre se site web unique.",
