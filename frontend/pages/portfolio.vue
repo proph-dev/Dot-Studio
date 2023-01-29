@@ -28,6 +28,9 @@
       Portfolio,
       CtaSection,
       TextSection
+    },
+    head: {
+        title: "Notre portfolio | DOT Studio"
     }
   }
   </script>

@@ -29,7 +29,10 @@ export default {
     Services,
     CtaSection,
     TextSection
-  }
+  },
+    head: {
+        title: "Nos services | DOT Studio"
+    }
 }
 </script>
 

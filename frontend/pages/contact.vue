@@ -12,6 +12,9 @@ import Contact from '~/components/contact/Contact.vue';
 export default {
   components: {
     Contact
-  }
+  },
+    head: {
+        title: "Nous contacter | DOT Studio"
+    }
 }
 </script>

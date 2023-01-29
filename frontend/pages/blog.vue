@@ -25,6 +25,9 @@
         BlogHero,
         Articles,
         TextSection
+    },
+    head: {
+        title: "Notre blog | DOT Studio"
     }
   }
   </script>

@@ -21,7 +21,8 @@
         </main>
 
         <div v-else>
-            <p class="text-red-500 font-bold">Aucun article n'a été trouvé</p>
+            <p class="text-red-500 font-bold mb-4 text-lg">Aucun article n'a été trouvé</p>
+            <nuxt-link to="/" class="hover:underline">Revenir à l'accueil</nuxt-link>
         </div>
     </div>
 </template>
@@ -61,6 +62,11 @@ export default {
         },
         secondContent() {
             return this.article ? this.article.secondContent : ''
+        }
+    },
+    head() {
+        return {
+            title: `${this.title} | DOT Studio`
         }
     }
 }
